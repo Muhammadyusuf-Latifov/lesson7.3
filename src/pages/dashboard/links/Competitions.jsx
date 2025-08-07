@@ -6,7 +6,7 @@ const Competitions = () => {
     <div>
       <h2 className="title">Competition</h2>
       <div className="tab">
-        <NavLink className="tablink" to={""}>
+        <NavLink end={true} className="tablink" to={""}>
           Match
         </NavLink>
         <NavLink className="tablink" to={"whowon"}>

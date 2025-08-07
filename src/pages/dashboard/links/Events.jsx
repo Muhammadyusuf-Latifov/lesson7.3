@@ -6,7 +6,7 @@ const Events = () => {
     <div>
       <h2 className="title">Events</h2>
       <div className="tab">
-        <NavLink className="tablink" to={""}>
+        <NavLink end={true} className="tablink" to={""}>
           Events
         </NavLink>
         <NavLink className="tablink" to={"nextevent"}>

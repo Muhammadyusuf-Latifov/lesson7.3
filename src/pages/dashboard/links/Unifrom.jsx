@@ -6,11 +6,11 @@ const Unifrom = () => {
     <div>
       <h2 className="title">Uniform</h2>
       <div className="tab">
-        <NavLink className="tablink" to={""}>
+        <NavLink end={true} className="tablink" to={""}>
           Boys uniform
         </NavLink>
         <NavLink className="tablink" to={"girluniform"}>
-         Girls uniform
+          Girls uniform
         </NavLink>
       </div>
       <Outlet />

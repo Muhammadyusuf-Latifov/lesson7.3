@@ -6,7 +6,7 @@ const Exams = () => {
     <div>
       <h2 className="title">Exam</h2>
       <div className="tab">
-        <NavLink className="tablink" to={""}>
+        <NavLink end={true} className="tablink" to={""}>
           Exam
         </NavLink>
         <NavLink className="tablink" to={"controlwork"}>

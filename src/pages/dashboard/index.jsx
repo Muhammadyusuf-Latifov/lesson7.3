@@ -12,7 +12,11 @@ const Dashboard = () => {
           <div className="mt-[10px]">
             <ul className="flex flex-col gap-[7px] ">
               <li>
-                <NavLink className="link flex items-center gap-[10px]" to={"/"}>
+                <NavLink
+                  end={true}
+                  className="link flex items-center gap-[10px]"
+                  to={"/"}
+                >
                   <div>
                     <FaSchool />
                   </div>
@@ -41,7 +45,11 @@ const Dashboard = () => {
             <div className="flex items-center gap-[20px]">
               <p className="text-[#fff]">Your name</p>
               <div>
-                <img className="block w-[40px] h-[40px] rounded-[50%] object-cover" src={user} alt="" />
+                <img
+                  className="block w-[40px] h-[40px] rounded-[50%] object-cover"
+                  src={user}
+                  alt=""
+                />
               </div>
             </div>
           </div>

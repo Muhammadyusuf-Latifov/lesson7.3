@@ -6,11 +6,11 @@ const Pupil = () => {
     <div>
       <h2 className="title">Pupil</h2>
       <div className="tab">
-        <NavLink className="tablink" to={""}>
-        Boys
+        <NavLink end={true} className="tablink" to={""}>
+          Boys
         </NavLink>
         <NavLink className="tablink" to={"girl"}>
-         Girls
+          Girls
         </NavLink>
       </div>
       <Outlet />

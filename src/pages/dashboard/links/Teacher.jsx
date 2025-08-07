@@ -6,7 +6,7 @@ const Teacher = () => {
     <div>
       <h2 className="title">Teacher</h2>
       <div className="tab">
-        <NavLink className="tablink" to={""}>
+        <NavLink end={true} className="tablink" to={""}>
           Level
         </NavLink>
         <NavLink className="tablink" to={"informationteacher"}>

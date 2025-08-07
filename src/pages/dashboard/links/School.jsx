@@ -6,11 +6,11 @@ const School = () => {
     <div>
       <h2 className="title">School</h2>
       <div className="tab">
-        <NavLink className="tablink" to={"/"}>
+        <NavLink end={true} className="tablink" to={"/"}>
           School news
         </NavLink>
         <NavLink className="tablink" to={"schoolperiod"}>
-          School news
+          School period
         </NavLink>
       </div>
       <Outlet />
