@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 .link {
-
   padding: 10px;
   transition: 0.2s;
   border-radius: 5px;
@@ -14,25 +13,34 @@
   color: black;
   font-weight: 500;
 }
-.title{
+.title {
   text-align: center;
-  font-size: 24px ;
+  font-size: 24px;
   margin-top: 10px;
 }
 
-.tab{
+.tab {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
   margin-top: 30px;
 }
-.tablink{
+.tablink {
   background: #ddd;
   padding: 14px 30px;
   border-radius: 10px;
-  transition: .2s;
+  transition: 0.2s;
 }
-.tablink.active{
+.tablink.active {
   background: #bdbcbc;
+}
+.clas {
+  padding: 20px;
+}
+b {
+  display: block;
+  background: #ddd;
+  padding: 20px;
+  border-radius: 8px;
 }
