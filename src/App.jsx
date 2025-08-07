@@ -87,12 +87,10 @@ const App = () => {
                 children: [
                   {
                     index: true,
-
                     element: <SchoolNews />,
                   },
                   {
                     path: "schoolperiod",
-
                     element: <SchoolPeriod />,
                   },
                 ],
@@ -192,14 +190,13 @@ const App = () => {
                 children: [
                   {
                     index: true,
-                    element:<Number/>
+                    element: <Number />,
                   },
                   {
                     path: "englishclassroom",
-                    element:<English/>
-                  }
-                ]
-                  
+                    element: <English />,
+                  },
+                ],
               },
               {
                 path: "exams",

@@ -15,7 +15,7 @@ const Dashboard = () => {
                 <NavLink
                   end={true}
                   className="link flex items-center gap-[10px]"
-                  to={"/"}
+                  to={""}
                 >
                   <div>
                     <FaSchool />
